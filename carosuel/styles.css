@@ -1,0 +1,67 @@
+.carousel{
+    display : flex;
+    position:relative;
+    width: 92px;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: #eee;
+}
+
+.carousel img {
+    /* width: 130px;*/
+    width: 97px;
+    height: 130px;
+    /* make it block to remove space around images */
+    display: block;
+  }
+
+.gallery{
+    width: 390px;
+    overflow: hidden;
+}
+
+.images{
+    list-style: none;
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    transition: margin-left 250ms;
+}
+
+.images li{
+    display: inline-block;
+}
+
+.arrow{
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    outline: none;
+  }
+  
+  .arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+  }
+
+.prev{
+    left:2%
+}
+
+.next{
+    right:2%
+}
